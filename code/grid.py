@@ -113,3 +113,27 @@ rewrite the code to reflect the structure of the solution.
 """
 
 print(comment)
+
+
+how about this?
+
+def floor(): 
+    print('+ - - - - + - - - - +\n')
+
+def beam():
+    print('|         |         |\n')
+
+def do_four(b):
+    b()
+    b()
+    b()
+    b()
+
+print_grid():
+floor()
+do_four(beam)
+floor()
+do_four(beam)
+floor()
+
+print_grid()
